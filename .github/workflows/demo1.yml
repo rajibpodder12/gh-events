@@ -1,8 +1,8 @@
 name: Events Demo 1
 on: 
   push:
-    branches:
-      - 'master'
+    # branches:
+    #   - 'master'
     # paths:
     #   - 'src/components/MainContent.test.jsx'
   pull_request:

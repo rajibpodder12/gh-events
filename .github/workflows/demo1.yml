@@ -4,7 +4,7 @@ on:
     branches:
       - 'master'
     paths:
-      - 'src/components/MainContent.test.jsx'
+      - 'src/components/HelpBox.jsx'
   pull_request:
     types: [opened,edited]
   workflow_dispatch:

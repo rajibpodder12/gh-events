@@ -1,10 +1,10 @@
 name: Events Demo 1
 on: 
   push:
-    branches:
-      - 'master'
-    paths:
-      - 'src/components/HelpBox.jsx'
+    # branches:
+    #   - 'master'
+    # paths:
+    #   - 'src/components/HelpBox.jsx'
   pull_request:
     types: [opened,edited]
   workflow_dispatch:
